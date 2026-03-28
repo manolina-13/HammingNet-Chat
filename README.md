@@ -1,4 +1,4 @@
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # HammingNet-Chat: Multi-threaded Reliable Chat System
 
@@ -13,6 +13,7 @@ While standard chat applications rely on TCP's built-in error detection at the t
 - **Bit-Level Debugging:** Displays raw received bitstreams, original data length (k), and encoded length (n).
 - **Syndrome Analysis:** Visualizes the exact index where an error was detected and corrected.
 - **Protocol Support:** Includes broadcast (/m) and private messaging (/pm) capabilities.
+- **Dynamic UI:** Rich terminal interface using colorama and termcolor to distinguish between system logs, outgoing, and incoming messages.
 
 ## Technical Demonstration
 
@@ -63,3 +64,10 @@ pip install colorama termcolor
 | `/pm <user> <message>` | Sends a private error-corrected message to a specific user. |
 | `/quit` | Terminates the connection and closes the socket. |
 
+## License
+
+This project is distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Manolina Das - [GitHub Profile](https://github.com/manolina-13)

@@ -31,8 +31,6 @@ Upon receiving the corrupted bitstream, the client performs the following:
 - **Bit Correction:** The client flips the bit at that specific index back to its original state.
 - **Binary to String:** The parity bits are stripped away, and the corrected binary is converted back into ASCII text.
 
----
-
 ## Concrete Example: Transmitting the letter "B"
 
 Here is a simplified walkthrough of a single-character transmission:
